@@ -1,0 +1,1090 @@
+2025-07-14 14:31:42,189 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:42,190 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:42,190 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240330 220645.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:42,190 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240330 225526.mp4
+2025-07-14 14:31:42,209 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:42,209 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240330 221117.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:42,213 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240406 164024.mp4
+2025-07-14 14:31:42,214 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240406 152750.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:42,216 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 150926.mp4
+2025-07-14 14:31:42,225 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 151721.mp4
+2025-07-14 14:31:42,402 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 151721_cleaned.mp4
+2025-07-14 14:31:42,404 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 151932.mp4
+2025-07-14 14:31:42,488 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240330 225526_cleaned.mp4
+2025-07-14 14:31:42,489 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 152655.mp4
+2025-07-14 14:31:42,545 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 151932_cleaned.mp4
+2025-07-14 14:31:42,546 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 152713.mp4
+2025-07-14 14:31:42,594 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 152655_cleaned.mp4
+2025-07-14 14:31:42,597 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 153059.mp4
+2025-07-14 14:31:42,725 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 153059_cleaned.mp4
+2025-07-14 14:31:42,726 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 153702.mp4
+2025-07-14 14:31:42,784 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240406 164024_cleaned.mp4
+2025-07-14 14:31:42,785 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 154029.mp4
+2025-07-14 14:31:42,792 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 150926_cleaned.mp4
+2025-07-14 14:31:42,800 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 154324.mp4
+2025-07-14 14:31:42,884 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 153702_cleaned.mp4
+2025-07-14 14:31:42,884 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240410 155326.mp4
+2025-07-14 14:31:42,911 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 154324_cleaned.mp4
+2025-07-14 14:31:42,911 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240526 122919.mp4
+2025-07-14 14:31:43,022 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 154029_cleaned.mp4
+2025-07-14 14:31:43,024 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240526 211128.mp4
+2025-07-14 14:31:43,054 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240526 122919_cleaned.mp4
+2025-07-14 14:31:43,055 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240526 211314.mp4
+2025-07-14 14:31:43,125 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 152713_cleaned.mp4
+2025-07-14 14:31:43,126 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240526 223252.mp4
+2025-07-14 14:31:43,126 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240410 155326_cleaned.mp4
+2025-07-14 14:31:43,129 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240625 003511.mp4
+2025-07-14 14:31:43,219 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240526 211128_cleaned.mp4
+2025-07-14 14:31:43,221 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240628 150638.mp4
+2025-07-14 14:31:43,260 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240526 223252_cleaned.mp4
+2025-07-14 14:31:43,261 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240630 173528.mp4
+2025-07-14 14:31:43,281 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240526 211314_cleaned.mp4
+2025-07-14 14:31:43,281 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,284 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240630 173954.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,285 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,285 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240630 181550.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,286 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,286 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240630 181618.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,288 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,289 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240630 181633.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,291 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,292 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240630 181636.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,293 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240720 131246.mp4
+2025-07-14 14:31:43,369 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240628 150638_cleaned.mp4
+2025-07-14 14:31:43,369 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:43,370 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240721 135151.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:43,370 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240723 105145.mp4
+2025-07-14 14:31:43,459 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240720 131246_cleaned.mp4
+2025-07-14 14:31:43,460 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240723 105157.mp4
+2025-07-14 14:31:43,564 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240723 105145_cleaned.mp4
+2025-07-14 14:31:43,564 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 163338.mp4
+2025-07-14 14:31:43,958 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240723 105157_cleaned.mp4
+2025-07-14 14:31:43,958 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 163458.mp4
+2025-07-14 14:31:44,045 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 163338_cleaned.mp4
+2025-07-14 14:31:44,047 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 164123.mp4
+2025-07-14 14:31:44,058 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240625 003511_cleaned.mp4
+2025-07-14 14:31:44,061 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 164419.mp4
+2025-07-14 14:31:44,255 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 164123_cleaned.mp4
+2025-07-14 14:31:44,256 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 164419_cleaned.mp4
+2025-07-14 14:31:44,257 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 171901.mp4
+2025-07-14 14:31:44,259 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 172541.mp4
+2025-07-14 14:31:44,511 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 171901_cleaned.mp4
+2025-07-14 14:31:44,512 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 163458_cleaned.mp4
+2025-07-14 14:31:44,512 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 175804.mp4
+2025-07-14 14:31:44,513 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240724 180238.mp4
+2025-07-14 14:31:44,857 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 180238_cleaned.mp4
+2025-07-14 14:31:44,861 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240725 213727.mp4
+2025-07-14 14:31:44,879 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 175804_cleaned.mp4
+2025-07-14 14:31:44,880 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240725 215805.mp4
+2025-07-14 14:31:44,954 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240724 172541_cleaned.mp4
+2025-07-14 14:31:44,957 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240726 093659.mp4
+2025-07-14 14:31:45,262 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240630 173528_cleaned.mp4
+2025-07-14 14:31:45,263 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240726 172921.mp4
+2025-07-14 14:31:45,336 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240725 215805_cleaned.mp4
+2025-07-14 14:31:45,339 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240727 102244.mp4
+2025-07-14 14:31:45,350 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240726 093659_cleaned.mp4
+2025-07-14 14:31:45,360 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240910 192557.mp4
+2025-07-14 14:31:45,528 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240725 213727_cleaned.mp4
+2025-07-14 14:31:45,530 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240910 201109.mp4
+2025-07-14 14:31:45,684 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240910 201109_cleaned.mp4
+2025-07-14 14:31:45,686 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240911 174207.mp4
+2025-07-14 14:31:45,717 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240727 102244_cleaned.mp4
+2025-07-14 14:31:45,722 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240911 184613.mp4
+2025-07-14 14:31:45,749 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240910 192557_cleaned.mp4
+2025-07-14 14:31:45,752 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,753 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240911 184643.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,759 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,760 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240911 184718.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,766 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240911 193246.mp4
+2025-07-14 14:31:45,818 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240911 174207_cleaned.mp4
+2025-07-14 14:31:45,819 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240911 194041.mp4
+2025-07-14 14:31:45,898 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240726 172921_cleaned.mp4
+2025-07-14 14:31:45,899 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240911 200423.mp4
+2025-07-14 14:31:45,914 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240911 184613_cleaned.mp4
+2025-07-14 14:31:45,916 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,916 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 140345.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,918 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,918 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 152749.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,922 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,923 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 152815.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,928 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,929 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 152935.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,932 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,935 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 152948.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,939 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,939 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 153020.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,941 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,941 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 153111.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,942 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,942 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 153744.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,944 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,946 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154029.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,947 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,950 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154245.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,952 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,953 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154250.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,955 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,957 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154625.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,958 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,959 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154645.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,960 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 154818.mp4
+2025-07-14 14:31:45,990 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240911 193246_cleaned.mp4
+2025-07-14 14:31:45,990 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:45,991 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 154920.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:45,992 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 154958.mp4
+2025-07-14 14:31:46,111 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 154958_cleaned.mp4
+2025-07-14 14:31:46,114 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,115 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 155107.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,116 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 155225.mp4
+2025-07-14 14:31:46,120 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 154818_cleaned.mp4
+2025-07-14 14:31:46,121 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,121 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 155651.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,128 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,128 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 155902.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,129 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,130 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160323.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,133 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,134 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160326.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,135 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,135 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160535.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,136 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,140 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160537.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,144 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,145 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160615.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,146 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,146 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160758.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,148 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,148 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 160759.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,152 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,153 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 161239.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,154 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,157 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 161716.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,159 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 162037.mp4
+2025-07-14 14:31:46,239 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240911 200423_cleaned.mp4
+2025-07-14 14:31:46,240 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 155225_cleaned.mp4
+2025-07-14 14:31:46,241 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 162627.mp4
+2025-07-14 14:31:46,243 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,243 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163503.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,244 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,245 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163605.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,246 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,247 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163742.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,251 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,255 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163753.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,256 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,256 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163821.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,258 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,258 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 163846.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,259 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,260 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 165932.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,261 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,261 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 165947.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,263 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,265 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 171556.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,268 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,269 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 173529.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,274 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,275 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 173723.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,281 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,283 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 173949.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,286 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,286 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 174123.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,287 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,288 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 174335.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,291 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,291 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 174339.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,292 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,293 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 175244.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,298 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,299 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 180158.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,301 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 180816.mp4
+2025-07-14 14:31:46,375 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 162037_cleaned.mp4
+2025-07-14 14:31:46,378 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,381 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181308.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,382 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,383 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181320.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,384 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,385 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181331.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,388 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,389 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181333.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,391 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,393 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181338.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,395 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,395 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181340.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,399 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,400 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181353.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,401 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,401 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 181355.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,404 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,405 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 183111.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,409 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 183203.mp4
+2025-07-14 14:31:46,560 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 180816_cleaned.mp4
+2025-07-14 14:31:46,561 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 162627_cleaned.mp4
+2025-07-14 14:31:46,564 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,565 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,565 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 183403.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,566 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 183431.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,570 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,570 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,571 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 183712.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,571 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 183822.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,572 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240911 194041_cleaned.mp4
+2025-07-14 14:31:46,572 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 183917.mp4
+2025-07-14 14:31:46,572 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 183937.mp4
+2025-07-14 14:31:46,572 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 184331.mp4
+2025-07-14 14:31:46,666 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 183203_cleaned.mp4
+2025-07-14 14:31:46,667 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 184906.mp4
+2025-07-14 14:31:46,757 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 183937_cleaned.mp4
+2025-07-14 14:31:46,758 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 184913.mp4
+2025-07-14 14:31:46,801 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 184906_cleaned.mp4
+2025-07-14 14:31:46,802 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,802 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185001.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,806 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 185021.mp4
+2025-07-14 14:31:46,807 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 183917_cleaned.mp4
+2025-07-14 14:31:46,807 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,812 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185121.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,814 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,818 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185213.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,820 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,820 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185228.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,823 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,824 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185311.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,825 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 185314.mp4
+2025-07-14 14:31:46,881 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 184331_cleaned.mp4
+2025-07-14 14:31:46,884 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 185324.mp4
+2025-07-14 14:31:46,921 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 185021_cleaned.mp4
+2025-07-14 14:31:46,922 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,923 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185640.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,928 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,928 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185643(0).avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,929 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,929 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185643.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,932 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,933 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185658.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,933 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,934 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 185700.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,935 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:46,935 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 190313.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:46,939 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 192349.mp4
+2025-07-14 14:31:46,940 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 185314_cleaned.mp4
+2025-07-14 14:31:46,945 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240912 192351.mp4
+2025-07-14 14:31:47,014 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 184913_cleaned.mp4
+2025-07-14 14:31:47,016 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:47,017 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 200608.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:47,019 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:47,019 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240912 201439.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:47,020 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 133719.mp4
+2025-07-14 14:31:47,043 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 192349_cleaned.mp4
+2025-07-14 14:31:47,043 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 134103.mp4
+2025-07-14 14:31:47,078 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 192351_cleaned.mp4
+2025-07-14 14:31:47,079 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 135440.mp4
+2025-07-14 14:31:47,079 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240912 185324_cleaned.mp4
+2025-07-14 14:31:47,080 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 135720.mp4
+2025-07-14 14:31:47,459 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 135720_cleaned.mp4
+2025-07-14 14:31:47,464 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 141247.mp4
+2025-07-14 14:31:47,640 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 135440_cleaned.mp4
+2025-07-14 14:31:47,656 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 141331.mp4
+2025-07-14 14:31:47,808 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 141247_cleaned.mp4
+2025-07-14 14:31:47,810 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 141802.mp4
+2025-07-14 14:31:48,115 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 133719_cleaned.mp4
+2025-07-14 14:31:48,117 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 142819.mp4
+2025-07-14 14:31:48,263 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 141331_cleaned.mp4
+2025-07-14 14:31:48,268 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 143030.mp4
+2025-07-14 14:31:48,280 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 142819_cleaned.mp4
+2025-07-14 14:31:48,289 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 143251.mp4
+2025-07-14 14:31:48,581 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 134103_cleaned.mp4
+2025-07-14 14:31:48,583 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 152421.mp4
+2025-07-14 14:31:48,713 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 143030_cleaned.mp4
+2025-07-14 14:31:48,716 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 152513.mp4
+2025-07-14 14:31:48,736 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 143251_cleaned.mp4
+2025-07-14 14:31:48,740 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 165959.mp4
+2025-07-14 14:31:48,742 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 152421_cleaned.mp4
+2025-07-14 14:31:48,748 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 170323.mp4
+2025-07-14 14:31:48,870 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 152513_cleaned.mp4
+2025-07-14 14:31:48,873 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 170624.mp4
+2025-07-14 14:31:49,201 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 170624_cleaned.mp4
+2025-07-14 14:31:49,204 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 171244.mp4
+2025-07-14 14:31:49,266 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 170323_cleaned.mp4
+2025-07-14 14:31:49,268 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 171347.mp4
+2025-07-14 14:31:49,577 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 171347_cleaned.mp4
+2025-07-14 14:31:49,577 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 172651.mp4
+2025-07-14 14:31:49,737 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 171244_cleaned.mp4
+2025-07-14 14:31:49,739 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 172711.mp4
+2025-07-14 14:31:49,745 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 172651_cleaned.mp4
+2025-07-14 14:31:49,749 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 174758.mp4
+2025-07-14 14:31:50,097 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 165959_cleaned.mp4
+2025-07-14 14:31:50,098 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 172711_cleaned.mp4
+2025-07-14 14:31:50,103 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 175527.mp4
+2025-07-14 14:31:50,103 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 181235.mp4
+2025-07-14 14:31:50,149 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 174758_cleaned.mp4
+2025-07-14 14:31:50,151 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240913 182652.mp4
+2025-07-14 14:31:50,336 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 141802_cleaned.mp4
+2025-07-14 14:31:50,337 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:50,338 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240913 182946.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:50,339 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 081746.mp4
+2025-07-14 14:31:50,717 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 182652_cleaned.mp4
+2025-07-14 14:31:50,722 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 084636.mp4
+2025-07-14 14:31:50,776 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 181235_cleaned.mp4
+2025-07-14 14:31:50,777 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 094720.mp4
+2025-07-14 14:31:50,903 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 084636_cleaned.mp4
+2025-07-14 14:31:50,905 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 095048.mp4
+2025-07-14 14:31:51,008 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 094720_cleaned.mp4
+2025-07-14 14:31:51,008 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,011 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 095515.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,013 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,015 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 095616.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,024 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,026 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 095636.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,028 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,031 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 095641.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,032 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 095914.mp4
+2025-07-14 14:31:51,055 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 095048_cleaned.mp4
+2025-07-14 14:31:51,055 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,056 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 100112.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,060 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 100137.mp4
+2025-07-14 14:31:51,233 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 095914_cleaned.mp4
+2025-07-14 14:31:51,236 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,238 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 100728.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,243 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,244 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 100746.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,249 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 081746_cleaned.mp4
+2025-07-14 14:31:51,249 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,250 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 110405.mp4
+2025-07-14 14:31:51,250 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 102503.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,262 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 100137_cleaned.mp4
+2025-07-14 14:31:51,262 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 112034.mp4
+2025-07-14 14:31:51,262 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,263 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 112132.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,266 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,267 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 112141.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,268 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 112155.mp4
+2025-07-14 14:31:51,728 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 110405_cleaned.mp4
+2025-07-14 14:31:51,729 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,733 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 112445.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,738 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,739 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 112500.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,741 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,742 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 112538.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,750 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 112803.mp4
+2025-07-14 14:31:51,780 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 112034_cleaned.mp4
+2025-07-14 14:31:51,782 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,783 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 120932.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,789 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,790 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 120936.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,791 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,802 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121017.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,806 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,809 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121045.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,815 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,818 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121050.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,820 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,820 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121205.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,821 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,823 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121210.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,824 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,824 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 121213.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,825 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 122545.mp4
+2025-07-14 14:31:51,891 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 112155_cleaned.mp4
+2025-07-14 14:31:51,891 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,891 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 122651.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,892 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,892 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 123214.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,893 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,893 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 123215.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,895 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,896 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 123637.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,898 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:51,899 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 124317.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:51,901 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 125008.mp4
+2025-07-14 14:31:52,114 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 112803_cleaned.mp4
+2025-07-14 14:31:52,116 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,116 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 125603.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,117 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,119 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 125606.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,124 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 125954.mp4
+2025-07-14 14:31:52,272 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 125008_cleaned.mp4
+2025-07-14 14:31:52,273 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 152204.mp4
+2025-07-14 14:31:52,336 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 122545_cleaned.mp4
+2025-07-14 14:31:52,339 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 153936.mp4
+2025-07-14 14:31:52,596 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 153936_cleaned.mp4
+2025-07-14 14:31:52,597 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 162312.mp4
+2025-07-14 14:31:52,610 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 152204_cleaned.mp4
+2025-07-14 14:31:52,614 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,619 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 163534.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,625 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,626 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 163900.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,632 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,636 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 164039.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,647 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 164518.mp4
+2025-07-14 14:31:52,661 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 125954_cleaned.mp4
+2025-07-14 14:31:52,663 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,668 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 164700.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,669 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 175125.mp4
+2025-07-14 14:31:52,816 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 164518_cleaned.mp4
+2025-07-14 14:31:52,818 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,820 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175250.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,823 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,824 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175258.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,826 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,826 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175323.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,858 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,859 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175337.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,934 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240914 175429.mp4
+2025-07-14 14:31:52,945 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 162312_cleaned.mp4
+2025-07-14 14:31:52,947 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,952 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175541.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,954 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,955 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175542.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,956 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,957 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175645.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,958 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,960 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175826.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,962 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,969 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175830.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,982 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,984 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 175831.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,985 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,986 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240914 180054.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,986 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,989 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240915 103145.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,990 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:52,992 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240915 103150.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:52,995 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 130210.mp4
+2025-07-14 14:31:53,133 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 175125_cleaned.mp4
+2025-07-14 14:31:53,133 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:53,134 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240915 130308.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:53,135 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:53,135 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240915 130321.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:53,137 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 133755.mp4
+2025-07-14 14:31:53,388 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 133755_cleaned.mp4
+2025-07-14 14:31:53,388 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 142630.mp4
+2025-07-14 14:31:53,426 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240914 175429_cleaned.mp4
+2025-07-14 14:31:53,430 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 142932.mp4
+2025-07-14 14:31:53,459 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 130210_cleaned.mp4
+2025-07-14 14:31:53,461 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 145802.mp4
+2025-07-14 14:31:53,744 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 145802_cleaned.mp4
+2025-07-14 14:31:53,746 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150009.mp4
+2025-07-14 14:31:53,779 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 142630_cleaned.mp4
+2025-07-14 14:31:53,781 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150148.mp4
+2025-07-14 14:31:53,860 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 142932_cleaned.mp4
+2025-07-14 14:31:53,861 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150429.mp4
+2025-07-14 14:31:54,013 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150429_cleaned.mp4
+2025-07-14 14:31:54,014 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150455.mp4
+2025-07-14 14:31:54,023 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240913 175527_cleaned.mp4
+2025-07-14 14:31:54,024 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150503.mp4
+2025-07-14 14:31:55,370 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150503_cleaned.mp4
+2025-07-14 14:31:55,370 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150659.mp4
+2025-07-14 14:31:55,898 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150455_cleaned.mp4
+2025-07-14 14:31:55,898 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 150926.mp4
+2025-07-14 14:31:56,111 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150148_cleaned.mp4
+2025-07-14 14:31:56,112 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 151622.mp4
+2025-07-14 14:31:57,598 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150659_cleaned.mp4
+2025-07-14 14:31:57,599 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 151716.mp4
+2025-07-14 14:31:57,854 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 151716_cleaned.mp4
+2025-07-14 14:31:57,855 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 152416.mp4
+2025-07-14 14:31:57,993 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 151622_cleaned.mp4
+2025-07-14 14:31:57,993 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 153122.mp4
+2025-07-14 14:31:58,017 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 152416_cleaned.mp4
+2025-07-14 14:31:58,017 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 153702.mp4
+2025-07-14 14:31:58,102 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150009_cleaned.mp4
+2025-07-14 14:31:58,103 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 161019.mp4
+2025-07-14 14:31:58,304 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 161019_cleaned.mp4
+2025-07-14 14:31:58,304 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 171519.mp4
+2025-07-14 14:31:58,706 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 171519_cleaned.mp4
+2025-07-14 14:31:58,707 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240915 171616.mp4
+2025-07-14 14:31:59,033 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 171616_cleaned.mp4
+2025-07-14 14:31:59,036 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240916 131023.mp4
+2025-07-14 14:31:59,065 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 153702_cleaned.mp4
+2025-07-14 14:31:59,068 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,068 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 133117.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,073 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,073 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 133125.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,075 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,076 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 133443.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,076 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,079 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 133450.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,081 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20240916 144525.mp4
+2025-07-14 14:31:59,125 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 153122_cleaned.mp4
+2025-07-14 14:31:59,128 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,128 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 145316.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,129 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,129 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 152348.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,132 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,133 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 160536.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,134 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,134 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 162324.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,135 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,135 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20240916 162327.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,136 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20241006 233645.mp4
+2025-07-14 14:31:59,344 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240916 131023_cleaned.mp4
+2025-07-14 14:31:59,346 - INFO - Processing file: C:/Users/AFU/Downloads/Camera\20241014 162136.mp4
+2025-07-14 14:31:59,499 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240916 144525_cleaned.mp4
+2025-07-14 14:31:59,499 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,499 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20241020 160727.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,501 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,504 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20241020 160739.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,505 - WARNING - Unsupported file type: .avif
+2025-07-14 14:31:59,505 - ERROR - Error processing file C:/Users/AFU/Downloads/Camera\20241109 152556.avif: Unsupported file type: .avif
+Traceback (most recent call last):
+  File "C:\Users\AFU\Desktop\DEV\GIT\metadata-cleaner\src\remover.py", line 53, in remove_metadata
+    raise ValueError(f"Unsupported file type: {ext}")
+ValueError: Unsupported file type: .avif
+2025-07-14 14:31:59,649 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20240915 150926_cleaned.mp4
+2025-07-14 14:31:59,841 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20241006 233645_cleaned.mp4
+2025-07-14 14:31:59,920 - INFO - Metadata removed successfully: C:/Users/AFU/Downloads/Camera\20241014 162136_cleaned.mp4

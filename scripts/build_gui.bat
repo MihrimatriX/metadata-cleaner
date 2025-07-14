@@ -1,5 +1,5 @@
 @echo off
-REM PyInstaller ile GUI exe üretimi
+REM Build GUI exe with PyInstaller
 pyinstaller --noconfirm --onefile --add-data "ffmpeg;ffmpeg" --add-data "src;src" src/gui_pyside.py --name MetadataCleanerGUI
-REM FFmpeg ve src klasörü exe ile aynı dizinde olacak şekilde eklenir
-REM Çıktı: dist/MetadataCleanerGUI.exe 
+REM FFmpeg and src folder will be included in the same directory as the exe
+REM Output: dist/MetadataCleanerGUI.exe 

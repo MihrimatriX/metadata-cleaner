@@ -11,19 +11,19 @@ import mimetypes
 from concurrent.futures import ThreadPoolExecutor
 from PySide6.QtCore import QTimer
 
-# Dosya türüne göre emoji ikonları
+# Emoji icons by file type
 FILE_ICONS = {
-    # Görsel
+    # Image
     '.jpg': '🖼️', '.jpeg': '🖼️', '.png': '🖼️', '.tiff': '🖼️', '.bmp': '🖼️', '.webp': '🖼️', '.heic': '🖼️',
-    # Belge
+    # Document
     '.pdf': '📄', '.docx': '📄', '.doc': '📄', '.odt': '📄', '.epub': '📄', '.txt': '📄', '.rtf': '📄', '.csv': '📄', '.xlsx': '📊', '.xls': '📊', '.pptx': '📊', '.ppt': '📊', '.ods': '📊', '.odp': '📊',
-    # Ses
+    # Audio
     '.mp3': '🎵', '.wav': '🎵', '.flac': '🎵', '.ogg': '🎵', '.aac': '🎵', '.wma': '🎵', '.m4a': '🎵', '.aiff': '🎵',
     # Video
     '.mp4': '🎬', '.mkv': '🎬', '.mov': '🎬', '.avi': '🎬', '.wmv': '🎬', '.webm': '🎬', '.m4v': '🎬',
-    # Arşiv
+    # Archive
     '.zip': '🗜️', '.rar': '🗜️', '.7z': '🗜️', '.tar': '🗜️', '.gz': '🗜️',
-    # Kod
+    # Code
     '.py': '💻', '.js': '💻', '.html': '💻', '.css': '💻', '.json': '💻', '.xml': '💻',
     'default': '📁'
 }
@@ -32,7 +32,7 @@ def get_icon_for_file(filename: str) -> str:
     ext = os.path.splitext(filename)[1].lower()
     return FILE_ICONS.get(ext, FILE_ICONS['default'])
 
-# ModernBar ve ModernFileListItem kaldırıldı, eski FileListItem geri geldi
+# ModernBar and ModernFileListItem removed, reverted to old FileListItem
 class FileListItem(QWidget):
     def __init__(self, filename, status=None, on_remove=None):
         super().__init__()
@@ -46,12 +46,12 @@ class FileListItem(QWidget):
         if on_remove:
             self.remove_btn.clicked.connect(on_remove)
         layout.addWidget(self.remove_btn)
-        # İkon
+        # Icon
         icon_label = QLabel(get_icon_for_file(filename))
         icon_label.setFixedWidth(28)
         icon_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(icon_label)
-        # Dosya adı
+        # File name
         name_label = QLabel(os.path.basename(filename))
         name_label.setMinimumWidth(120)
         layout.addWidget(name_label)
@@ -79,21 +79,21 @@ class MetadataCleanerGUI(QMainWindow):
         main_layout.setSpacing(0)
         central.setLayout(main_layout)
 
-        # Üst bar
+        # Top bar
         top_bar = QHBoxLayout()
-        add_file_btn = QPushButton("Dosya Ekle")
+        add_file_btn = QPushButton("Add File")
         add_file_btn.clicked.connect(self.add_file)
-        add_folder_btn = QPushButton("Klasör Ekle")
+        add_folder_btn = QPushButton("Add Folder")
         add_folder_btn.clicked.connect(self.add_folder)
         top_bar.addWidget(add_file_btn)
         top_bar.addWidget(add_folder_btn)
         top_bar.addStretch()
         main_layout.addLayout(top_bar)
-        # Splitter ile ana liste ve detay paneli
+        # Splitter with main list and detail panel
         self.splitter = QSplitter()
         self.splitter.setOrientation(Qt.Horizontal)
         main_layout.addWidget(self.splitter)
-        # Sol: Dosya listesi paneli
+        # Left: File list panel
         self.list_panel = QWidget()
         list_layout = QVBoxLayout()
         self.list_panel.setLayout(list_layout)
@@ -102,27 +102,27 @@ class MetadataCleanerGUI(QMainWindow):
         self.list_widget.setFrameShape(QFrame.NoFrame)
         self.list_widget.itemSelectionChanged.connect(self.handle_selection_changed)
         list_layout.addWidget(self.list_widget)
-        # Alt bar
+        # Bottom bar
         bottom_bar = QHBoxLayout()
-        self.status_label = QLabel("Henüz dosya eklenmedi.")
+        self.status_label = QLabel("No files added yet.")
         bottom_bar.addWidget(self.status_label)
         bottom_bar.addStretch()
-        self.clean_btn = QPushButton("Temizle")
+        self.clean_btn = QPushButton("Clean")
         self.clean_btn.setStyleSheet("background-color: #e57373; color: white; font-weight: bold;")
         self.clean_btn.clicked.connect(self.clean_files)
         bottom_bar.addWidget(self.clean_btn)
         list_layout.addLayout(bottom_bar)
         self.splitter.addWidget(self.list_panel)
-        # Sağ: Detay paneli (her zaman açık)
+        # Right: Detail panel (always visible)
         self.detail_panel = QWidget()
         detail_layout = QVBoxLayout()
         self.detail_panel.setLayout(detail_layout)
-        self.detail_title = QLabel("Detaylar")
+        self.detail_title = QLabel("Details")
         self.detail_title.setStyleSheet("font-weight:bold;font-size:16px;")
         detail_layout.addWidget(self.detail_title)
         self.detail_table = QTableWidget()
         self.detail_table.setColumnCount(2)
-        self.detail_table.setHorizontalHeaderLabels(["Alan", "Değer"])
+        self.detail_table.setHorizontalHeaderLabels(["Field", "Value"])
         self.detail_table.horizontalHeader().setStretchLastSection(True)
         detail_layout.addWidget(self.detail_table)
         self.splitter.addWidget(self.detail_panel)
@@ -140,13 +140,13 @@ class MetadataCleanerGUI(QMainWindow):
         self.detail_table.setRowCount(0)
 
     def add_file(self):
-        file_path, _ = QFileDialog.getOpenFileName(self, "Dosya Seç")
+        file_path, _ = QFileDialog.getOpenFileName(self, "Select File")
         if file_path:
             self.file_list.append({'filename': file_path, 'status': ''})
             self.refresh_list()
 
     def add_folder(self):
-        folder_path = QFileDialog.getExistingDirectory(self, "Klasör Seç")
+        folder_path = QFileDialog.getExistingDirectory(self, "Select Folder")
         if folder_path:
             for fname in os.listdir(folder_path):
                 fpath = os.path.join(folder_path, fname)
@@ -197,7 +197,7 @@ class MetadataCleanerGUI(QMainWindow):
                     props = wb.properties
                     return {k: getattr(props, k) for k in dir(props) if not k.startswith('_') and not callable(getattr(props, k))}
                 except Exception:
-                    return {'Bilgi': 'Excel dosyası, temel bilgiler gösteriliyor.'}
+                    return {'Info': 'Excel file, showing basic info.'}
             elif ext in ['.pptx', '.ppt', '.odp']:
                 try:
                     from pptx import Presentation
@@ -205,12 +205,12 @@ class MetadataCleanerGUI(QMainWindow):
                     props = prs.core_properties
                     return {k: getattr(props, k) for k in dir(props) if not k.startswith('_') and not callable(getattr(props, k))}
                 except Exception:
-                    return {'Bilgi': 'Sunum dosyası, temel bilgiler gösteriliyor.'}
+                    return {'Info': 'Presentation file, showing basic info.'}
             elif ext in ['.txt', '.csv', '.json', '.xml', '.html', '.css', '.js', '.py']:
                 size = os.path.getsize(file_path)
                 with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                     lines = f.readlines()
-                return {'Boyut (byte)': size, 'Satır sayısı': len(lines)}
+                return {'Size (bytes)': size, 'Line count': len(lines)}
             elif ext in ['.mp3', '.flac', '.ogg', '.wav', '.aac', '.wma', '.m4a', '.aiff']:
                 from mutagen import File
                 audio = File(file_path)
@@ -221,11 +221,11 @@ class MetadataCleanerGUI(QMainWindow):
                 return {t.track_type: t.to_data() for t in info.tracks}
             elif ext in ['.zip', '.rar', '.7z', '.tar', '.gz']:
                 size = os.path.getsize(file_path)
-                return {'Boyut (byte)': size}
+                return {'Size (bytes)': size}
             else:
-                return {"Bilgi": "Bu dosya türü için detay gösterilemiyor."}
+                return {"Info": "No details available for this file type."}
         except Exception as e:
-            return {"Hata": str(e)}
+            return {"Error": str(e)}
 
     def refresh_list(self):
         self.list_widget.clear()
@@ -239,8 +239,8 @@ class MetadataCleanerGUI(QMainWindow):
             list_item.setSizeHint(widget.sizeHint())
             self.list_widget.addItem(list_item)
             self.list_widget.setItemWidget(list_item, widget)
-        self.status_label.setText(f"{len(self.file_list)} dosya eklendi.")
-        # Otomatik seçim: ilk dosya varsa seçili yap
+        self.status_label.setText(f"{len(self.file_list)} files added.")
+        # Auto-select: select first file if exists
         if self.file_list:
             self.list_widget.setCurrentRow(0)
         else:
@@ -251,10 +251,10 @@ class MetadataCleanerGUI(QMainWindow):
 
     def clean_files(self):
         if not self.file_list:
-            QMessageBox.warning(self, "Uyarı", "Lütfen önce dosya veya klasör ekleyin.")
+            QMessageBox.warning(self, "Warning", "Please add a file or folder first.")
             return
         self.clean_btn.setEnabled(False)
-        self.status_label.setText("İşlem başlatıldı...")
+        self.status_label.setText("Operation started...")
         self.cleaned_count = 0
         self.failed_count = 0
         self.total_to_clean = len(self.file_list)
@@ -279,8 +279,8 @@ class MetadataCleanerGUI(QMainWindow):
 
     def cleaning_done(self):
         self.clean_btn.setEnabled(True)
-        self.status_label.setText(f"{self.cleaned_count} dosya temizlendi, {self.failed_count} hata.")
-        QMessageBox.information(self, "İşlem tamamlandı", f"{self.cleaned_count} dosya başarıyla temizlendi. {self.failed_count} hata.")
+        self.status_label.setText(f"{self.cleaned_count} files cleaned, {self.failed_count} errors.")
+        QMessageBox.information(self, "Operation completed", f"{self.cleaned_count} files cleaned successfully. {self.failed_count} errors.")
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

@@ -23,7 +23,7 @@ def remove_video_metadata(file_path: str, output_path: Optional[str] = None) -> 
     """
     ffmpeg_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 'ffmpeg', 'ffmpeg.exe') if sys.platform.startswith('win') else 'ffmpeg'
     if not os.path.exists(ffmpeg_path) and sys.platform.startswith('win'):
-        logger.error(f"ffmpeg.exe bulunamadı: {ffmpeg_path}")
+        logger.error(f"ffmpeg.exe not found: {ffmpeg_path}")
         return None
     try:
         if not output_path:

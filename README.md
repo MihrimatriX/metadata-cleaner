@@ -1,36 +1,40 @@
 # 📄 Metadata Cleaner 🧹🔍
 
-*Görsel, belge, ses ve video dosyalarındaki metadata’yı hızlı ve güvenli şekilde temizleyen modern Python aracı.*
+<img src="docs/ss.png" alt="Metadata Cleaner Screenshot" width="600" />
+
+*A modern Python tool for quickly and securely cleaning metadata from image, document, audio, and video files.*
+
+<sub>Screenshot: Modern and simple GUI for batch metadata cleaning</sub>
 
 ---
 
-## 📌 Genel Bakış
+## 📌 Overview
 
-**Metadata Cleaner**; gizlilik, güvenlik ve veri temizliği için geliştirilmiş, çok formatlı ve paralel işlem destekli bir komut satırı ve GUI uygulamasıdır.
+**Metadata Cleaner** is a multi-format, parallel-processing command-line and GUI application developed for privacy, security, and data hygiene.
 
-- **Gizliliğinizi koruyun:** Dosyalardaki gizli metadata’yı silin.
-- **Toplu işlem:** Tek dosya veya klasör/alt klasör bazında toplu temizlik.
-- **Seçmeli filtreleme:** JSON config ile hangi metadata alanlarının korunacağını belirleyin.
-- **Modern arayüz:** PySide6 tabanlı sade ve erişilebilir GUI.
-- **Hızlı:** ThreadPoolExecutor ile arayüz donmadan çoklu dosya işleme.
-- **Geniş format desteği:** Görsel, belge, ses, video, arşiv ve kod dosyaları için ikon ve metadata desteği.
-- **Loglama:** Konsol ve dosyaya detaylı log.
+- **Protect your privacy:** Remove hidden metadata from files.
+- **Batch processing:** Clean single files or entire folders/subfolders in bulk.
+- **Selective filtering:** Use a JSON config to specify which metadata fields to keep.
+- **Modern interface:** Simple and accessible GUI based on PySide6.
+- **Fast:** Process multiple files without freezing the UI using ThreadPoolExecutor.
+- **Wide format support:** Icons and metadata support for images, documents, audio, video, archives, and code files.
+- **Logging:** Detailed logs to console and file.
 
 ---
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-### pip ile (Önerilen)
+### With pip (Recommended)
 ```bash
 pip install -r requirements.txt
 ```
 
-Ardından komut satırından:
+Then from the command line:
 ```bash
 python src/cli.py --help
 ```
 
-### Poetry ile (Alternatif)
+### With Poetry (Alternative)
 ```bash
 git clone ...
 cd metadata-cleaner
@@ -40,48 +44,48 @@ poetry run python src/cli.py --help
 
 ---
 
-## 🖥️ Kullanım Örnekleri
+## 🖥️ Usage Examples
 
-### Tek Dosya Temizleme
+### Clean a Single File
 ```bash
 python src/cli.py --file path/to/photo.jpg
 ```
 
-### Klasördeki Tüm Dosyalar
+### Clean All Files in a Folder
 ```bash
 python src/cli.py --folder path/to/folder
 ```
 
-### Alt Klasörlerle ve Özel Çıktı
+### With Subfolders and Custom Output
 ```bash
 python src/cli.py --folder path/to/folder --recursive --output sanitized_files --yes
 ```
 
-### Config ile Seçmeli Temizleme
+### Selective Cleaning with Config
 ```bash
 python src/cli.py --file photo.jpg --config config.json
 ```
 
 ---
 
-## 🧑‍💻 API Kullanımı
+## 🧑‍💻 API Usage
 
-### Temel Fonksiyonlar
+### Core Functions
 
 #### `remove_metadata(file_path: str, output_path: Optional[str] = None, config_file: Optional[str] = None) -> Optional[str]`
-Tek bir dosyanın metadata’sını temizler. Görsellerde config dosyası ile seçmeli filtreleme yapılabilir.
+Cleans metadata from a single file. For images, selective filtering can be done with a config file.
 
 #### `remove_metadata_from_folder(folder_path: str, output_folder: Optional[str] = None, config_file: Optional[str] = None, recursive: bool = False) -> List[str]`
-Bir klasördeki tüm desteklenen dosyaların metadata’sını temizler. Alt klasörler için recursive=True kullanılabilir.
+Cleans metadata from all supported files in a folder. Use recursive=True for subfolders.
 
-**Örnek:**
+**Example:**
 ```python
 from remover import remove_metadata, remove_metadata_from_folder
 cleaned_file = remove_metadata("photo.jpg", config_file="config.json")
 cleaned_files = remove_metadata_from_folder("my_folder", recursive=True)
 ```
 
-### Handler Fonksiyonları
+### Handler Functions
 ```python
 from file_handlers.image_handler import remove_image_metadata
 from file_handlers.pdf_handler import remove_pdf_metadata
@@ -92,84 +96,84 @@ from file_handlers.video_handler import remove_video_metadata
 
 ---
 
-## 📝 Özellikler ve Yol Haritası
+## 📝 Features & Roadmap
 
-### ✅ Tamamlananlar
-- PySide6 ile modern masaüstü arayüz
-- Batch/folder işleme, ThreadPoolExecutor ile paralel temizlik
-- Modern format desteği (WEBP, HEIC, XLSX, PPTX, ODS, ODP, vb.)
-- Detaylı loglama ve hata yönetimi
+### ✅ Completed
+- Modern desktop interface with PySide6
+- Batch/folder processing, parallel cleaning with ThreadPoolExecutor
+- Modern format support (WEBP, HEIC, XLSX, PPTX, ODS, ODP, etc.)
+- Detailed logging and error management
 
-### ⏳ Planlananlar
-- Web tabanlı GUI (Flask/FastAPI/Electron.js)
-- Log rotasyonu ve gelişmiş hata raporlama
-- Auto-update (otomatik güncelleme) özelliği
-- Yeni formatlar (EPUB, gelişmiş arşiv desteği)
-
----
-
-## 🪲 Loglama & Hata Yönetimi
-- Loglar hem konsola hem de `logs/metadata_cleaner.log` dosyasına yazılır.
-- Sık karşılaşılan hatalar:
-  - **Dosya Bulunamadı:**  `File not found: <file_path>`
-  - **Desteklenmeyen Dosya Türü:**  `Unsupported file type: <extension>`
-  - **FFmpeg Hatası:**  Video dosyalarında hata alırsanız, `ffmpeg/ffmpeg.exe`'nin mevcut olduğundan emin olun (proje ile birlikte gelir, ek kurulum gerekmez).
+### ⏳ Planned
+- Web-based GUI (Flask/FastAPI/Electron.js)
+- Log rotation and advanced error reporting
+- Auto-update feature
+- New formats (EPUB, advanced archive support)
 
 ---
 
-## 📂 Proje Yapısı
+## 🪲 Logging & Error Management
+- Logs are written to both the console and `logs/metadata_cleaner.log` file.
+- Common errors:
+  - **File Not Found:**  `File not found: <file_path>`
+  - **Unsupported File Type:**  `Unsupported file type: <extension>`
+  - **FFmpeg Error:**  For video file errors, ensure `ffmpeg/ffmpeg.exe` is present (comes with the project, no extra setup needed).
+
+---
+
+## 📂 Project Structure
 ```
 metadata-cleaner/
 ├── src/
-│   ├── cli.py                # CLI giriş noktası
+│   ├── cli.py                # CLI entry point
 │   ├── gui_pyside.py         # PySide6 GUI
-│   ├── remover.py            # Çekirdek temizlik mantığı
-│   ├── config/               # Ayarlar
-│   ├── core/                 # Metadata filtreleme yardımcıları
-│   ├── file_handlers/        # Dosya türü handler’ları
-│   └── logs/                 # Loglama
-├── ffmpeg/                   # Portable ffmpeg (Windows için)
-├── requirements.txt          # Bağımlılıklar
-├── README.md                 # Bu dosya
+│   ├── remover.py            # Core cleaning logic
+│   ├── config/               # Settings
+│   ├── core/                 # Metadata filtering helpers
+│   ├── file_handlers/        # File type handlers
+│   └── logs/                 # Logging
+├── ffmpeg/                   # Portable ffmpeg (for Windows)
+├── requirements.txt          # Dependencies
+├── README.md                 # This file
 ```
 
 ---
 
-## 🏗️ Derleme & Dağıtım
+## 🏗️ Build & Distribution
 
 ### Windows (EXE)
-- GUI için:
+- For GUI:
   ```
   scripts\build_gui.bat
   dist\MetadataCleanerGUI.exe
   ```
-- CLI için:
+- For CLI:
   ```
   scripts\build_cli.bat
   dist\metadata-cleaner.exe
   ```
 
 ### Linux/Mac
-- Bash script ile venv kurulum ve çalıştırma:
+- Setup venv and run with bash script:
   ```
   bash scripts/build.sh
   source .venv/bin/activate
   python src/gui_pyside.py
-  # veya
+  # or
   python src/cli.py --help
   ```
 
 ---
 
-## 🚀 Geliştirilebilecek Özellikler
-- Karanlık/aydınlık tema desteği (GUI)
-- Sürükle-bırak dosya/klasör ekleme
-- İşlem geçmişi ve son temizlenenler listesi
-- Çoklu dil desteği (i18n)
-- Log rotasyonu ve gelişmiş hata raporlama
-- Daha fazla dosya formatı (EPUB, arşiv, yeni medya türleri)
-- Otomatik güncelleme (auto-update)
-- Komut satırı için otomatik tamamlama
-- Dosya hash kontrolü
-- Web tabanlı arayüz (Flask/FastAPI/Electron.js)
-- Daha fazla otomatik test ve CI/CD pipeline
+## 🚀 Possible Features
+- Light/dark theme support (GUI)
+- Drag-and-drop file/folder addition
+- Operation history and recently cleaned list
+- Multi-language support (i18n)
+- Log rotation and advanced error reporting
+- More file formats (EPUB, archive, new media types)
+- Auto-update
+- CLI auto-completion
+- File hash checking
+- Web-based interface (Flask/FastAPI/Electron.js)
+- More automated tests and CI/CD pipeline
