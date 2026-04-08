@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metadata-cleaner"
+version = "0.2.0"
+description = "Remove metadata from images, documents, audio, and video (CLI + GUI)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "click>=8.1.3",
+    "pillow>=9.5.0",
+    "pypdf>=3.12.0",
+    "python-docx>=0.8.11",
+    "mutagen>=1.45.1",
+    "pymediainfo>=5.0.3",
+    "tqdm>=4.64.0",
+    "piexif>=1.1.3",
+    "pyside6>=6.9.1",
+    "openpyxl>=3.0.0",
+    "python-pptx>=0.6.21",
+    "pillow-heif>=0.16.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4.0"]
+
+[project.scripts]
+metadata-cleaner = "cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["cli", "remover", "gui_pyside"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

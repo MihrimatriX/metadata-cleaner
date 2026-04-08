@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+.dist/
+.dist
+dist
+.eggs/
+*.egg-info/
+
+# Local pip config (copy from config/pip.example.ini)
+config/pip.local.ini
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Poetry specific
+.poetry/
+
+# Test cache
+.cache/
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
